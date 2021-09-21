@@ -7,11 +7,11 @@ var mysql = require('mysql2');
 */
 const connection = mysql.createConnection({
     connectionLimit: 10,
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'full-stack',
-    port: 8111,
+    host: 'us-cdbr-east-04.cleardb.com',
+    user: 'b9bde1c654b8e2',
+    password: 'df4ea8ae',
+    database: 'heroku_040a333e503ac09',
+    port: 3306,
     insecureAuth: true
 });
 
