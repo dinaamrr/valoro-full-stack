@@ -11,7 +11,7 @@ const connection = mysql.createConnection({
     user: 'b9bde1c654b8e2',
     password: 'df4ea8ae',
     database: 'heroku_040a333e503ac09',
-    port: 8111,
+    port: 3306,
     insecureAuth: true
 });
 
